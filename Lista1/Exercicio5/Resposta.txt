@@ -1,0 +1,8 @@
+Pergunta:
+Analisando o resultado da atividade 3 e 4, em qual situação a busca sequencial é melhor
+que a busca binária.
+
+Resposta:
+A situação em que a busca linear é melhor quando  os dados estao armazenados  de forma aleatoria, logo  para
+fazer  a binária ainda tera um custo adicional de ordenação onde no exercicio 4 gastou 34 ms adicionais ao tempo total.
+Tirando o fato da ordenação, a busca binaria é melhor pelo fato de ser O(log N) e sequencial O(N).
