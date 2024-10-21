@@ -7,15 +7,9 @@ package Lista2.Exercicio4;
  */
 public class BubbleSortMelhorado {
     
-    public static void main(String[] args) {
-        int [] vzin = {1,2,3,4,5} ;
-        bubbleSortMelhorado(vzin);
-        for(int i = 0; i < vzin.length ; i++ ){
-            System.out.print(vzin[i]+" ");
-        }
-    }
+    
 
-    public static void bubbleSortMelhorado(int[] vetor){
+    public  void bubbleSortMelhorado(int[] vetor){
         
         for(int i = 0; i < vetor.length -1 ; i++){
             int qtdTroca = 0;
@@ -28,7 +22,7 @@ public class BubbleSortMelhorado {
                 }
             }
             if (qtdTroca == 0) {
-                System.out.println("esta ordenado");
+                
                 return ;
             }
         }
