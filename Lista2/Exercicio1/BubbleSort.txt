@@ -1,0 +1,33 @@
+Dada a sequência de números: [3 4 9 2 5 8 1], ordene-a a lista de forma crescente
+segundo os seguintes algoritmos apresentados em sala de aula. Apresente a
+sequência obtida a cada passo do algoritmo:
+
+a idea desse algoritmo é levar os maiores valores para o final ate ordenar todos valores atraves de  comparaçoes e trocas
+
+
+    [3 4 9 2 5 8 1]
+
+1-  [(3 4) 9 2 5 8 1] 3 é j e 4 é j+1, como j+1 é maior que j n tera troca e agora 4 é j+1 e o proximo é j+2
+2-  [3 (4 9) 2 5 8 1] logo n tera troca de novo
+3-  [3 4 (9 2) 5 8 1] como 9 é maior que  2 tera troca, ent o j+2 recebe 2 e j+3 recebe 9
+4-  [3 4 2 (9 5) 8 1] troca
+5-  [3 4 2 5 (9 8) 1] troca
+6-  [3 4 2 5 8 (9 1)] troca
+7-  [3 4 2 5 8 (1 9)] como percorreu todo o vetor ele conclui que 9 é a posiçao final do vetor
+8-  [(3 4) 2 5 8 1 |9] começa denovo
+9-  [3 (4 2) 5 8 1 |9] troca
+10- [3 2 (4 5) 8 1 |9] passa
+11- [3 2 4 (5 8) 1 |9] passa
+12- [3 2 4 5 (8 1) |9] troca e chega no final
+13- [(3 2) 4 5 1 |8 9] troca
+14- [2 (3 4) 5 1 |8 9] passa
+15- [2 3 (4 5) 1 |8 9] passa
+16- [2 3 4 (5 1) |8 9] troca e chega no final
+17- [(2 3) 4 1 |5 8 9] passa
+18- [2 (3 4) 1 |5 8 9] passa 
+19- [2 3 (4 1) |5 8 9] troca e chega no final
+20- [(2 3) 1 |4 5 8 9] passa
+21- [2 (3 1) |4 5 8 9] troca e chega no final
+22- [(2 1) |3 4 5 8 9] troca
+
+       [1 2 3 4 5 8 9]  fimm.
