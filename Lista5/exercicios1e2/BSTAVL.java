@@ -1,4 +1,4 @@
-package Exercicios1a7;
+package exercicios1e2;
 
 import java.util.Stack;
 
