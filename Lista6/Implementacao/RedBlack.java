@@ -1,11 +1,6 @@
-package Lista6;
+package Implementacao;
 
-
-    
-    
-    
-    
-    public class RedBlack {
+public class RedBlack {
         private No raiz;
         private final No NULO; // Nó "sentinela" para folhas nulas
     

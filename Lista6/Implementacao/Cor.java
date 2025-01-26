@@ -1,4 +1,4 @@
-package Lista6;
+package Implementacao;
 
 enum Cor {
     PRETO,

@@ -1,4 +1,4 @@
-package Lista6;
+package Implementacao;
 
 public class Main {
     public static void main(String[] args) {

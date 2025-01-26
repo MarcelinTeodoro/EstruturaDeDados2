@@ -1,4 +1,4 @@
-package Lista6;
+package Implementacao;
 
 class No {
     int valor;
